@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Web Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ 
+  <div class="emoji emoji1">☀️</div>
+  <div class="emoji emoji2">🍎</div>
+  <div class="emoji emoji3">⭐</div>
+
+  <div class="main-box">
+
+   
+    <div id="welcome-page">
+      <h1>Web Dev Basics Quiz ☀️</h1>
+      <p>Answer 10 easy questions about coding!</p>
+      <button class="yellow-btn" onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <div id="quiz-page" class="hide">
+      <p id="counter">Question 1 of 10</p>
+      <h2 id="my-question">Question goes here</h2>
+
+     
+      <div class="buttons-list">
+        <button class="choice-btn" onclick="checkAnswer(0)">Option A</button>
+        <button class="choice-btn" onclick="checkAnswer(1)">Option B</button>
+        <button class="choice-btn" onclick="checkAnswer(2)">Option C</button>
+        <button class="choice-btn" onclick="checkAnswer(3)">Option D</button>
+      </div>
+
+      <p id="result-msg"></p>
+      <button id="next-button" class="blue-btn hide" onclick="nextQuestion()">Next Question</button>
+    </div>
+
+   
+    <div id="result-page" class="hide">
+      <h1>Quiz Finished! 🎉</h1>
+      <p class="big-score">Your Score: <span id="my-score">0</span> / 10</p>
+      <p id="final-message">Good job!</p>
+      <button class="yellow-btn" onclick="restartQuiz()">Play Again</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

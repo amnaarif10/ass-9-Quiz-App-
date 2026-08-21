@@ -1,0 +1,88 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #EBF2FA;
+
+  background-image: linear-gradient(90deg, #B2C9EC 2px, transparent 2px),
+                    linear-gradient(#B2C9EC 2px, transparent 2px);
+  background-size: 40px 40px;
+  color: #2C3E50;
+  margin: 0;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+
+.emoji {
+  position: absolute;
+  font-size: 40px;
+}
+.emoji1 { top: 20px; left: 20px; }
+.emoji2 { top: 20px; right: 20px; }
+.emoji3 { bottom: 20px; left: 30px; }
+
+
+.main-box {
+  background-color: white;
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 15px;
+  border: 2px solid #B2C9EC;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+}
+
+
+.hide {
+  display: none;
+}
+
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.yellow-btn {
+  background-color: #FFF1A8;
+  color: #2C3E50;
+  font-weight: bold;
+}
+
+.blue-btn {
+  background-color: #74A4BC;
+  color: white;
+  font-weight: bold;
+}
+
+.buttons-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.choice-btn {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+
+.right {
+  background-color: #a8e6cf !important;
+}
+
+.wrong {
+  background-color: #ff8b94 !important;
+}
+
+.big-score {
+  font-size: 24px;
+  font-weight: bold;
+}
