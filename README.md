@@ -9,8 +9,8 @@ An interactive, single-page web quiz application designed to test fundamental we
 * 🔗 **Live Web App:** [View Web Dev Quiz Live](https://amnaarif10.github.io/ass-9-Quiz-App-/)
 * 📸 **Application Preview:**
 
-<img src="<img width="1462" height="720" alt="Gemini_Generated_Image_2zvrdt2zvrdt2zvr" src="https://github.com/user-attachments/assets/b34907d6-2f00-4f84-8729-ce41df445282" />
-" alt="Web Dev Basics Quiz Interface Showcase" width="100%" />
+<img width="1462" height="720" alt="Gemini_Generated_Image_2zvrdt2zvrdt2zvr" src="https://github.com/user-attachments/assets/b34907d6-2f00-4f84-8729-ce41df445282" />
+
 
 ---
 
